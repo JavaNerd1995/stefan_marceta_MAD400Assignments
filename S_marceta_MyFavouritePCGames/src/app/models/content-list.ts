@@ -14,7 +14,8 @@ export class ContentList {
         this._items = this._items.concat();
       }
 
-      ToString () {
+
+      ToString (number : IContent) {
         
       }
     }

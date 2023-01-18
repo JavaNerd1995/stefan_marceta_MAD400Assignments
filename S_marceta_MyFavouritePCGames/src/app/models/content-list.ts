@@ -11,6 +11,10 @@ export class ContentList {
         return this._items;
         }
     addContent (content: IContent){
-         
+        this._items = this._items.concat();
+      }
+
+      ToString () {
+        
       }
     }
